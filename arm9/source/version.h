@@ -8,7 +8,7 @@
 */
 
 #define AKMENU_VERSION_MAIN "1"
-#define AKMENU_VERSION_SUB "25"
+#define AKMENU_VERSION_SUB "0"
 
 #ifndef __KERNEL_LAUNCHER_SUPPORT__
 #define AKMENU_LOADER_NAME "nds-bootstrap"
@@ -20,7 +20,7 @@
 #define AKMENU_LOADER_NAME "BL2CK"
 #define AKMENU_LOADER_VERSION "1.31.0"
 #else  // fallback for acekard
-#define AKMENU_LOADER_NAME "YS: 7.06"
-#define AKMENU_LOADER_VERSION "nds-bootstrap"
+#define AKMENU_LOADER_NAME "YS Loader"
+#define AKMENU_LOADER_VERSION "7.06"
 #endif  // __AKLOADER_AK2__
 #endif  // __KERNEL_LAUNCHER_SUPPORT__
