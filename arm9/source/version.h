@@ -20,7 +20,7 @@
 #define AKMENU_LOADER_NAME "BL2CK"
 #define AKMENU_LOADER_VERSION "1.31.0"
 #else  // fallback for acekard
-#define AKMENU_LOADER_NAME "wood"
-#define AKMENU_LOADER_VERSION "1.62"
+#define AKMENU_LOADER_NAME "YS: 7.06"
+#define AKMENU_LOADER_VERSION "nds-bootstrap"
 #endif  // __AKLOADER_AK2__
 #endif  // __KERNEL_LAUNCHER_SUPPORT__

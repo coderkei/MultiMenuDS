@@ -47,7 +47,7 @@
 	b	startUp
 	
 storedFileCluster:
-	.word	0x0FFFFFFF		@ default BOOT.NDS
+	.word	0x0FFFFFFF		@ default TTMenu.dat
 initDisc:
 	.word	0x00000001		@ init the disc by default
 wantToPatchDLDI:
@@ -391,7 +391,7 @@ eRunNdsRetCode runNdsFile (const char* filename, int argc, const char** argv)  {
 	b	startUp
 	
 storedFileCluster:
-	.word	0x0FFFFFFF		@ default BOOT.NDS
+	.word	0x0FFFFFFF		@ default TTMenu.dat
 initDisc:
 	.word	0x00000001		@ init the disc by default
 wantToPatchDLDI:
